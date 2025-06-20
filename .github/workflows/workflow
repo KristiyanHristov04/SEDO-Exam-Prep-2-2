@@ -1,0 +1,44 @@
+name: Build And Test .NET Application
+
+on:
+  push:
+    branches: [ "staging", "develop" ]
+  pull_request:
+    branches: [ "staging", "develop" ]
+
+jobs:
+  unit-tests:
+    if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build
+    - name: Running Unit Tests
+      run: dotnet test .\HouseRentingSystem.UnitTests
+
+  integration-tests:
+    if: github.ref == 'refs/heads/staging'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build
+    - name: Running Integration Tests
+      run: dotnet test .\HouseRentingSystem.Tests
