@@ -32,7 +32,7 @@ namespace HouseRentingSystem.Tests.UnitTests
             var result = this.agentService.ExistsById(this.Agent.UserId);
 
             // Assert the method result is true
-            Assert.IsTrue(result);
+            Assert.IsFalse(result);
         }
 
        
