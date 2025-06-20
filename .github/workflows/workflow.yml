@@ -23,7 +23,7 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Running Unit Tests
-      run: dotnet test .\HouseRentingSystem.UnitTests
+      run: dotnet test HouseRentingSystem.UnitTests
 
   integration-tests:
     if: github.ref == 'refs/heads/staging'
@@ -41,4 +41,4 @@ jobs:
     - name: Build
       run: dotnet build
     - name: Running Integration Tests
-      run: dotnet test .\HouseRentingSystem.Tests
+      run: dotnet test HouseRentingSystem.Tests
