@@ -1,15 +1,16 @@
 pipeline {
     agent any
 
+   
     stages {
         stage {
-            steps {
+            steps('Build') {
                 echo 'Build .NET Application'
                 bat 'dotnet build'
             }
         }
         stage {
-            steps {
+            steps('Execute Tests') {
                 echo 'Run both Unit and Integration Tests'
                 bat 'dotnet test'
             }
