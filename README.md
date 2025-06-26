@@ -1,3 +1,1 @@
-# SEDO-Regular-Exam-2024-10
-
-Testing if github action works as expected.
+# SEDO-Regular-Exam-2025-01

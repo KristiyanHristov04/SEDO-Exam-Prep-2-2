@@ -1,0 +1,13 @@
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\bin\Debug\net6.0\HouseRentingSystem.Services.deps.json
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\bin\Debug\net6.0\HouseRentingSystem.Services.runtimeconfig.json
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\bin\Debug\net6.0\HouseRentingSystem.Services.dll
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\bin\Debug\net6.0\HouseRentingSystem.Services.pdb
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.csproj.AssemblyReference.cache
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.AssemblyInfoInputs.cache
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.AssemblyInfo.cs
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.csproj.CoreCompileInputs.cache
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.sourcelink.json
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.dll
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.pdb
+D:\DevOps-SoftUni\Exam Prep 04\SEDO-Exam-Prep-2-2\HouseRentingSystem.Services\obj\Debug\net6.0\HouseRentingSystem.Services.genruntimeconfig.cache
