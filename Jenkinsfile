@@ -16,6 +16,14 @@ pipeline {
                 bat 'dotnet build'
             }
         }
+        stage('Random Stuff') {
+            when {
+                branch 'feature'
+            }
+            steps {
+                echo 'This is so random'
+            }
+        }
         stage('Execute Tests') {
             when {
                 branch 'main'
